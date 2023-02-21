@@ -2,7 +2,7 @@
   "name": "roi-calc",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://IvanaCliffords.github.io/cal-roi/",
+  "homepage": "https://ivanacliffords.github.io/cal-roi/",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
