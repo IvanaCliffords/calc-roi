@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/cal-roi/static/css/main.dd2d5954.css",
-    "main.js": "/cal-roi/static/js/main.41ff6782.js",
-    "index.html": "/cal-roi/index.html",
-    "main.dd2d5954.css.map": "/cal-roi/static/css/main.dd2d5954.css.map",
-    "main.41ff6782.js.map": "/cal-roi/static/js/main.41ff6782.js.map"
+    "main.css": "./static/css/main.dd2d5954.css",
+    "main.js": "./static/js/main.41ff6782.js",
+    "index.html": "./index.html",
+    "main.dd2d5954.css.map": "./static/css/main.dd2d5954.css.map",
+    "main.41ff6782.js.map": "./static/js/main.41ff6782.js.map"
   },
   "entrypoints": [
     "static/css/main.dd2d5954.css",
