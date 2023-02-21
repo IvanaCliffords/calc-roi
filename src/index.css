@@ -1,0 +1,196 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* background-color: #f3f3f3; */
+  font-family: "Avenir Next";
+}
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url("https://d3r5dkdp5m49fd.cloudfront.net/fonts/AvenirNext-Regular-08.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Avenir Next Medium";
+  src: url("https://d3r5dkdp5m49fd.cloudfront.net/fonts/AvenirNext-Medium-06.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Avenir Next Demi Bold";
+  src: url("https://d3r5dkdp5m49fd.cloudfront.net/fonts/AvenirNext-Bold-01.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Avenir Next Bold";
+  src: url("https://d3r5dkdp5m49fd.cloudfront.net/fonts/AvenirNext-Bold-01.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: Gt-Ultra;
+  src: url("https://d3r5dkdp5m49fd.cloudfront.net/fonts/GT-Ultra-Median-Light.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Avenir Normal";
+  src: url("https://d3r5dkdp5m49fd.cloudfront.net/fonts/Avenir-Medium-09.ttf")
+    format("truetype");
+}
+
+:root {
+  /* font families */
+  --font-avenir: Avenir;
+  --font-avenir-medium: "Avenir Normal";
+  --font-avenir-next: "Avenir Next";
+  --font-avenir-next-medium: "Avenir Next Medium";
+  --font-avenir-next-bold: "Avenir Next Bold";
+  --font-Gt-Ultra: Gt-Ultra;
+  --margin-0: 0;
+  --margin-6: 6rem;
+  --margin-7: 7rem;
+  --margin-8: 7.75rem;
+  --margin-10: 10rem;
+  --margin-12: 12rem;
+  --margin-14: 14rem;
+  --margin-16: 16rem;
+  --margin-20: 20rem;
+  /* padding */
+  --padding-6: 5.75rem;
+  --padding-7: 6.75rem;
+  --padding-8: 7.75rem;
+  --padding-160: 16rem;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.fw-400 {
+  font-weight: 400;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.fw-600 {
+  font-weight: 600;
+}
+.fw-700 {
+  font-weight: 700;
+}
+.fw-800 {
+  font-weight: 700;
+}
+/* font families */
+.font-avenir {
+  font-family: var(--font-avenir);
+}
+.font-avenir-next {
+  font-family: var(--font-avenir-next);
+}
+.font-avenir-next-medium {
+  font-family: var(--font-avenir-next-medium);
+}
+.font-avenir-next-bold {
+  font-family: var(--font-avenir-next-bold);
+}
+.font-avenir-normal {
+  font-family: var(--font-avenir-medium);
+}
+.font-avenir-bold {
+  font-family: "Avenir Bold";
+}
+.font-avenir-bolder {
+  font-family: "Avenir Bolder";
+}
+.font-gt-ultra {
+  font-family: var(--font-Gt-Ultra) !important;
+}
+
+
+
+
+.custom-shape-divider-top-1676400368 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1676400368 svg {
+  position: relative;
+  display: block;
+  width: calc(106% + 1.3px);
+  height: 231px;
+  /* transform: rotateY(180deg); */
+}
+
+.custom-shape-divider-top-1676400368 .shape-fill {
+  fill: red;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-shape-divider-top-1676400368 svg {
+      width: calc(109% + 1.3px);
+      height: 116px;
+  }
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .custom-shape-divider-top-1676400368 svg {
+      width: calc(106% + 1.3px);
+      height: 63px;
+  }
+}
+
+
+
+
+
+/* 
+.circles-wrapper {
+  position: relative;
+  margin-top: -300px;
+  margin-left: 200px !important;
+  z-index: -90;
+  .circles {
+    border-radius: 50%;
+    border: 1px solid #127cbe;
+    width: 1000px !important;
+    height: 1000px !important;
+    display: grid;
+    place-content: center;
+    :first-child {
+      border-radius: 50%;
+      border: 1px solid #127cbe;
+      width: 600px !important;
+      height: 600px !important;
+      display: grid;
+      place-content: center;
+      :first-child {
+        border-radius: 50%;
+        border: 1px solid #127cbe;
+        width: 300px !important;
+        height: 300px !important;
+        display: grid;
+        place-content: center;
+        :first-child {
+          width: 150px !important;
+          height: 150px !important;
+          border-radius: 50%;
+          border: 1px solid #127cbe;
+          display: grid;
+          place-content: center;
+        }
+      }
+    }
+  }
+  .circles-img {
+    position: absolute;
+    left: -70px;
+    top: 200px;
+  }
+} */
